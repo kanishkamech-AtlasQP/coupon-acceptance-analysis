@@ -22,19 +22,19 @@ This analysis uses survey data from the UCI Machine Learning Repository (collect
 
 Cheap restaurant (71%) and carry-out (73%) coupons convert well. Bar (41%) and expensive-restaurant (44%) coupons convert poorly.
 
-![Coupon types](images/coupon_types.png)
+![Coupon types](coupon_types.png)
 
 **2. Existing habit is the strongest predictor.**
 
 People who already visit a bar at least once a month accept bar coupons 65–78% of the time, compared with 19% for people who never go to bars. Coffee houses show the same pattern: 65–69% for regular visitors versus 19% for those who never go.
 
-![Bar frequency](images/bar_frequency.png)
+![Bar frequency](bar_frequency.png)
 
 **3. Who accepts bar coupons:** regular bar-goers, especially those **under 30** and **without children in the car** (71–72% acceptance, against about 30% for everyone else). Income and cheap-restaurant habits make little difference.
 
 **4. Who accepts coffee house coupons:** regular coffee drinkers on a **non-urgent trip** at **10 AM–2 PM**, who accept **77%** of offers. Acceptance is also higher when travelling with friends or a partner, and with a **1-day** rather than a 2-hour expiry (58% vs 43%). It is lowest on the way home, in the evening, and when the coffee house is 25+ minutes away.
 
-![Coffee house drivers](images/coffee_drivers.png)
+![Coffee house drivers](coffee_drivers.png)
 
 **5. Context helps:** warmer weather (60% acceptance at 80°F vs 53% at 30°F) and shorter detours both increase acceptance.
 
@@ -61,5 +61,5 @@ The idea works, **but only if it is targeted.** Sending coupons to everyone woul
 | File | Description |
 |---|---|
 | `coupon_acceptance_analysis.ipynb` | Full analysis: data cleaning, visualisations, bar-coupon questions, coffee-house investigation, findings |
-| `data/coupons.csv` | Survey dataset (UCI Machine Learning Repository) |
-| `images/` | Charts used in this report |
+| `coupons.csv` | Survey dataset (UCI Machine Learning Repository) |
+| `*.png` | Charts used in this report |
